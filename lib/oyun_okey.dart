@@ -87,6 +87,7 @@ final okeyConfig = GameConfig(
     ],
   seedColor: const Color(0xFF1F7A6B),
   icon: Icons.view_week,
+  extraModes: [lessonMode(LessonCourse.okey)],
   rules: okeyRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
